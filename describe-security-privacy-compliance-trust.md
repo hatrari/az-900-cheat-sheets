@@ -45,3 +45,39 @@ These elements fall into three categories:
 * __Something you are__ is typically some sort of biometric property, such as a fingerprint or face scan used on many mobile devices.
 
 ## Describe security tools and features of Azure
+
+### Azure Security Center
+Azure Security Center is a monitoring service that provides threat protection across all of your services both in Azure, and on-premises. Security Center can:
+* Provide security recommendations based on your configurations, resources, and networks.
+* Monitor security settings across on-premises and cloud workloads, and automatically apply required security to new services as they come online.
+* Continuously monitor all your services and perform automatic security assessments to identify potential vulnerabilities before they can be exploited.
+* Use machine learning to detect and block malware from being installed on your virtual machines and services. You can also define a list of allowed applications to ensure that only the apps you validate can execute.
+* Analyze and identify potential inbound attacks and help to investigate threats and any post-breach activity that might have occurred.
+* Provide just-in-time access control for ports, reducing your attack surface by ensuring the network only allows traffic that you require.
+
+Azure Security Center is available in two tiers:
+* __Free__: Available as part of your Azure subscription, this tier is limited to assessments and recommendations of Azure resources only.
+* __Standard__: This tier provides a full suite of security-related services including continuous monitoring, threat detection, just-in-time access control for ports, and more.
+
+### Azure Key Vault
+Azure Key Vault is a centralized cloud service for storing your applications' secrets. Key Vault helps you control your applications' secrets by keeping them in a single, central location and by providing secure access, permissions control, and access logging capabilities.
+
+The benefits of using Key Vault include:
+* __Centralized application secrets__: Centralizing storage for application secrets allows you to control their distribution and reduces the chances that secrets may be accidentally leaked.
+* __Securely stored secrets and keys__: Azure uses industry-standard algorithms, key lengths, and HSMs, and access requires proper authentication and authorization.
+* __Monitor access and use__: Using Key Vault, you can monitor and control access to company secrets.
+* __Simplified administration of application secrets__: Key Vault makes it easier to enroll and renew certificates from public Certificate Authorities (CAs). You can also scale up and replicate content within regions and use standard certificate management tools.
+* __Integrate with other Azure services__: You can integrate Key Vault with storage accounts, container registries, event hubs and many more Azure services.
+
+### Azure Information Protection
+Azure Information Protection is a cloud-based solution that helps organizations classify and (optionally) protect its documents and emails by applying labels. Labels can be applied automatically (by administrators who define rules and conditions), manually (by users), or with a combination of both (where users are guided by recommendations).
+
+### Azure Advanced Threat Protection
+Azure Advanced Threat Protection is a cloud-based security solution that identifies, detects, and helps you investigate advanced threats, compromised identities, and malicious insider actions directed at your organization. Azure ATP is capable of detecting known malicious attacks and techniques, security issues, and risks against your network.
+
+Azure Advanced Threat Protection components:
+* __Azure Advanced Threat Protection (ATP) portal__: Azure ATP has its own portal, through which you can monitor and respond to suspicious activity. The Azure ATP portal allows you to create your Azure ATP instance, and view the data received from Azure ATP sensors. You can also use the portal to monitor, manage, and investigate threats in your network environment.
+* __Azure Advanced Threat Protection (ATP) sensor__: Azure ATP sensors are installed directly on your domain controllers. The sensor monitors domain controller traffic without requiring a dedicated server or configuring port mirroring.
+* __Azure Advanced Threat Protection (ATP) cloud service__: Azure ATP cloud service runs on Azure infrastructure and is currently deployed in the United States, Europe, and Asia. Azure ATP cloud service is connected to Microsoft's intelligent security graph.
+
+## Describe Azure governance methodologies
