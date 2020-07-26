@@ -1,6 +1,6 @@
 # Describe cloud concepts (15-20%)
 
-## Describe the benefitsand considerations of using cloud services
+## Describe the benefits and considerations of using cloud services
 
 ### Cloud computing 
 Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet (the cloud) to offer faster innovation, flexible resources, and economies of scale. You typically pay only for cloud services you use, and scale as your business needs change.
